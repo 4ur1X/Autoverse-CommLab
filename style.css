@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Contrail+One&family=Quintessential&family=Rowdies&family=Staatliches&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Contrail One', cursive;
+    background-color: white;
+    text-align: center;
+}
+
+.header {
+    background-image: url("images/banner4.png");
+    background-position: center;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    color: black;
+    padding: 10px;
+    display: inline-block;
+}
+
+.wrapper {
+    min-width: 400px;
+    max-width: 1200px;
+    display: inline-block;
+    margin: auto 20px;
+    text-align: left;
+}
+
+.section {
+    display: flex;
+    padding: 15px;
+    margin: 20px;
+    
+}
+
+.section img {
+    width: 300px;
+    padding-right: 20px;
+}
+
+.section:hover{
+    background-color: lightcyan;
+    filter: drop-shadow(2px 2px 4px gray);
+    border-radius: 15px;
+}
+
+.section:hover h2{
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+ul{
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li{
+    color: blue;
+    padding-bottom: 10px;
+}
+
+#footer {
+    color: white;
+    display: flex;
+    padding: 5px;
+    background: black;
+}
+  
+#footer-spacer {
+    flex-grow: 4;
+}
+
+#footer h3{
+    margin-left: 20px;
+}
+
+#copyright {
+    margin-right: 20px;
+    text-align: right;
+}
