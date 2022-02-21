@@ -7,9 +7,13 @@
     <title>Autoverse</title>
 
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     
 </head>
 <body>
+    <audio id="supercarsound">
+        <source src="supercarsound.mp3" type="audio/mpeg">
+    </audio>
     <div class="header">
         <div class="title">
             <h1>A.U.T.O.<span style="color: blue;">V.E.R.S.E</span></h1>
@@ -23,6 +27,8 @@
           </div>
     </div>
     <br><br>
+    <button class="supercarsound_button" onclick="playAudio()" type="button">Sound of Supercar</button>
+    <br>
     <div class="wrapper">
         <div class="main">
             <div class="section">
